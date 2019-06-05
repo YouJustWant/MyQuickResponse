@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyQuickResponse</string>
+    <string name="simple">简单的二维码扫描</string>
+</resources>
