@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MyQuickResponse</string>
     <string name="simple">简单的二维码扫描</string>
+    <string name="choose">选择图片并解析</string>
+    <string name="quickresponse">生成二维码</string>
+    <string name="normal">生成普通的二维码</string>
+    <string name="logo">生成带logo的二维码</string>
 </resources>

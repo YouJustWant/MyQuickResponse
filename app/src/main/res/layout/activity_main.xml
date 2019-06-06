@@ -12,4 +12,16 @@
         android:onClick="simpleClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bitmap"
+        android:text="@string/choose"
+        android:onClick="choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/qucik"
+        android:text="@string/quickresponse"
+        android:onClick="quick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
