@@ -5,4 +5,5 @@
     <string name="quickresponse">生成二维码</string>
     <string name="normal">生成普通的二维码</string>
     <string name="logo">生成带logo的二维码</string>
+    <string name="custom">定制扫描页面</string>
 </resources>

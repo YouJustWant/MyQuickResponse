@@ -1,4 +1,4 @@
-package com.bwie.myquickresponse;
+package com.bwie.myquickresponse.ui;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bwie.myquickresponse.R;
 import com.uuzuche.lib_zxing.activity.CodeUtils;
 
 public class CreateActivity extends AppCompatActivity {

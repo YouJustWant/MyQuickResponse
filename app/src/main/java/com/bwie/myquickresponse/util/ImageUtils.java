@@ -1,4 +1,4 @@
-package com.bwie.myquickresponse;
+package com.bwie.myquickresponse.util;
 
 import android.annotation.TargetApi;
 import android.content.ContentUris;

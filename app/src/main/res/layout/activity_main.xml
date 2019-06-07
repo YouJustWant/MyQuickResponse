@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <Button
         android:id="@+id/simple"
@@ -16,6 +16,12 @@
         android:id="@+id/bitmap"
         android:text="@string/choose"
         android:onClick="choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/design"
+        android:text="@string/custom"
+        android:onClick="design"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button

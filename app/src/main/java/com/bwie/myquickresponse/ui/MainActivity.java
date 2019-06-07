@@ -1,4 +1,4 @@
-package com.bwie.myquickresponse;
+package com.bwie.myquickresponse.ui;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -15,13 +15,12 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bwie.myquickresponse.util.ImageUtils;
+import com.bwie.myquickresponse.R;
 import com.uuzuche.lib_zxing.activity.CaptureActivity;
 import com.uuzuche.lib_zxing.activity.CodeUtils;
-
-import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,11 +29,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        request();
-        //
+        /*request();
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
-        builder.detectFileUriExposure();
+        builder.detectFileUriExposure();*/
     }
 
     /**
@@ -75,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void quick(View view) {
-        Intent intent = new Intent(MainActivity.this,CreateActivity.class);
+        Intent intent = new Intent(MainActivity.this, CreateActivity.class);
         startActivity(intent);
     }
     /**
@@ -125,5 +123,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
+    }
+
+    public void design(View view) {
+        Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+        startActivity(intent);
     }
 }
